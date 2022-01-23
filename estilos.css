@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header, section, footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#mitad_izq {
+    float: left;
+    width: 550px;
+    height: 550px;
+}
+
+#mitad_der {
+    float: right;
+    
+}
+
+h1, h2 {
+    color: whitesmoke;
+    font-size: 65px;
+    text-align: right;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    color: black;
+
+    
+}
+
+#playa {
+    position: absolute;
+    left: 800px;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+#montaña {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
